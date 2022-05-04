@@ -1,0 +1,112 @@
+*body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #111;
+}
+.main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 15em 0 ;
+    background-image: url(../pic-8.jpg), radial-gradient(#eee, #444);
+    background-size: cover;
+    object-fit: cover;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    display: flex;
+    opacity: 0.8;
+}
+.brand-span{
+    color: red;
+}
+.nav-item{
+    padding: 0 20px;
+    margin: 0 10px;
+}
+.navbar-brand{
+    font-family: 'Orelega One', cursive;
+    font-size: 40px;
+    padding: 0 10px;
+}
+.content{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    margin: 0 10rem;
+    line-height: 1.1;
+}
+.content h1{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.content p{
+    font-size: 1rem;
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+    transition: transform 250ms ease-in-out, 
+    opacity 250ms linear;
+}
+.btn:hover,
+.btn:focus{
+    background-color: red;
+    color: #fff;
+    transform: scale(1.1);
+    opacity: .9;
+}
+.btn-about{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 10px 30px;
+    background: red;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    align-items: center;
+    transition: transform 250ms ease-in-out, 
+    opacity 250ms linear;
+}
+.btn-about:hover,
+.btn-about:focus{
+    color: #fff;
+    transform: scale(1.1);
+    opacity: .9;
+}
+.about{
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin: 2rem 0;
+}
+.about .contentBx{
+    width: 100%;
+    text-align: center;
+    padding: 0 0 2rem 2rem;
+    margin-right: 2rem;
+}
+.about h2{
+    font-weight: 600px;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.nav-item{
+    margin: 0 1rem;
+    transition: transform 250ms ease-in-out;
+}
+.nav-item:hover{
+    transform: scale(1.2);
+}
+.container-fluid{
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: 2rem;
+    margin-left: auto;
+}
